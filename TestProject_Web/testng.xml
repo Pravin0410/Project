@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Project">
+	<!-- <test name="LoginTest"> <classes> <class name="tests.ExecuteTests" 
+		/> <class name="tests.ExecuteTests2" /> </classes> </test> -->
+	<!-- <test name="LoginTest_PF"> <classes> <class name="tests_PF.ExecuteTests_PF" 
+		/> <class name="tests_PF.ExecuteTests2_PF" /> </classes> </test> -->
+	<test name="LoginTest_ReportG">
+		<classes>
+			<class name="tests_extendR.ExtentReporterNG" />
+			<class name="tests_extendR.ExecuteTests_PF" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
