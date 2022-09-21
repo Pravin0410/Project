@@ -41,6 +41,5 @@ public class ExtentReporterNG {
 		File dsc = new File(screenshotpath);
 		FileUtils.copyFile(src, dsc);
 		return screenshotpath;
-		
 	}
 }
